@@ -2,6 +2,8 @@ const express = require("express");
 const compression = require("compression");
 const bodyParser = require("body-parser");
 const serveIndex = require("serve-index");
+const dotenv = require('dotenv')
+dotenv.config()
 
 const humanTime = require("./utils/humanTime");
 const keepalive = require("./utils/keepalive");
