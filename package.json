@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "preinstall": "apt install python2.7 python-pip",
+    "preinstall": "yum install python3",
     "build": "cd web && npm install && npm run build",
     "start": "NODE_ENV=production node index.js"
   },
