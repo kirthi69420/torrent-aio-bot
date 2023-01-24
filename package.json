@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "preinstall": "yum install python3",
-    "build": "cd web && npm install && npm run build",
+    "build": "yum install python3 && cd web && npm install && npm run build",
     "start": "NODE_ENV=production node index.js"
   },
   "author": "pathetic_geek",
