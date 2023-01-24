@@ -46,5 +46,8 @@
     "webtorrent": "^0.107.17",
     "zip-a-folder": "^0.0.12",
     "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "windows-build-tools": "^5.2.0"
   }
 }
